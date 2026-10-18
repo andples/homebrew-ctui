@@ -1,30 +1,30 @@
 class Ctui < Formula
   desc "Minimal terminal calendar and task list (TUI and CLI)"
   homepage "https://github.com/andples/ctui"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   # Prebuilt by .github/workflows/release.yml in andples/ctui; written by
   # scripts/release.sh, don't edit by hand.
   on_macos do
     on_arm do
-      url "https://github.com/andples/ctui/releases/download/v0.2.1/ctui-aarch64-apple-darwin.tar.gz"
-      sha256 "af8de49551cdc9673f904e316ac92a1f0f2d59784ee0d79b4bbc5c04b8965470"
+      url "https://github.com/andples/ctui/releases/download/v0.2.2/ctui-aarch64-apple-darwin.tar.gz"
+      sha256 "9063c209ace9ece7e29d7166363b81135aef05b8109048ee63f4cccaf88a5460"
     end
     on_intel do
-      url "https://github.com/andples/ctui/releases/download/v0.2.1/ctui-x86_64-apple-darwin.tar.gz"
-      sha256 "6f39898a41da5a280659e3182cc07f1c29377184e1bfe1b322fd13ea4f3bc0c8"
+      url "https://github.com/andples/ctui/releases/download/v0.2.2/ctui-x86_64-apple-darwin.tar.gz"
+      sha256 "89b17eb595f14066cac0481a96f8f48afda2513e6c520937c96e27006e317533"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/andples/ctui/releases/download/v0.2.1/ctui-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d8af443eaf573a9276e853c7e212e08ad3773fba5fe492679c4332a1cc91acbd"
+      url "https://github.com/andples/ctui/releases/download/v0.2.2/ctui-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "bf9da9529950d3871d581c1faf675a01d7ede3fb47871574aac33ed9646d9075"
     end
     on_intel do
-      url "https://github.com/andples/ctui/releases/download/v0.2.1/ctui-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f7a6c0387d7adb297a6aab72fe03c8fa71b6d8187dfa0deb1ea67166eb5167fd"
+      url "https://github.com/andples/ctui/releases/download/v0.2.2/ctui-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0f1561f6ad91186426aee1378dea069a850cbb803d74312e47031b4a62efdd86"
     end
   end
 
